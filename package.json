@@ -1,7 +1,7 @@
 {
-  "name": "@technote-space/ts-package-template",
+  "name": "@technote-space/github-action-log-helper",
   "version": "0.0.27",
-  "description": "Template for npm package.",
+  "description": "Logging helpers for GitHub Actions.",
   "author": {
     "name": "Technote",
     "email": "technote.space@gmail.com",
@@ -12,13 +12,13 @@
     "github",
     "github actions"
   ],
-  "homepage": "https://github.com/technote-space/ts-package-template",
+  "homepage": "https://github.com/technote-space/github-action-log-helper",
   "repository": {
     "type": "git",
-    "url": "https://github.com/technote-space/ts-package-template.git"
+    "url": "https://github.com/technote-space/github-action-log-helper.git"
   },
   "bugs": {
-    "url": "https://github.com/technote-space/ts-package-template/issues"
+    "url": "https://github.com/technote-space/github-action-log-helper/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -46,7 +46,6 @@
     "access": "public"
   },
   "scripts": {
-    "setup": "if [[ $(uname -s) == 'Darwin' ]]; then BASH_ENV=~/.bashrc bash -O expand_aliases bin/setup.sh; else bash bin/setup.sh; fi && if [[ -f __DELETE__ ]]; then rm -rdf bin __DELETE__; fi",
     "build": "tsc",
     "test": "yarn lint && yarn cover",
     "lint": "eslint 'src/**/*.ts' '__tests__/**/*.ts' --cache",
