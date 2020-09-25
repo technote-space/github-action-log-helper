@@ -20,7 +20,7 @@ Logging helpers for GitHub Actions.
 - [Install](#install)
   - [yarn](#yarn)
   - [npm](#npm)
-  - [Logger](#logger)
+- [Logger](#logger)
 - [Author](#author)
 
 </details>
