@@ -31,7 +31,7 @@ Logging helpers for GitHub Actions.
 ### npm
 - `npm i @technote-space/github-action-log-helper`
 
-### Logger
+## Logger
 ```typescript
 import { Logger } from '@technote-space/github-action-log-helper';
 
