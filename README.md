@@ -17,9 +17,10 @@ Logging helpers for GitHub Actions.
 <details>
 <summary>Details</summary>
 
-- [Setup](#setup)
+- [Install](#install)
   - [yarn](#yarn)
   - [npm](#npm)
+  - [Logger](#logger)
 - [Author](#author)
 
 </details>
