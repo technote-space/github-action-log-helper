@@ -8,7 +8,7 @@
 
 *Read this in other languages: [English](README.md), [日本語](README.ja.md).*
 
-Logging helpers for GitHub Actions.
+GitHub Actions 用のログヘルパー
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ Logging helpers for GitHub Actions.
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Install
+## インストール
 ### yarn
 - `yarn add @technote-space/github-action-log-helper`
 ### npm
