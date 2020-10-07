@@ -124,10 +124,11 @@ describe('Logger', () => {
         backColor: 'red',
         attribute: 'bold',
       })).toBe('\x1b[34;41;1mHello World!!!\x1b[0m');
-      expect(logger.getColorString('Hello World!!!')).toBe('\x1b[37;40;0mHello World!!!\x1b[0m');
-      expect(logger.getColorString('Hello World!!!', {color: 'green'})).toBe('\x1b[32;40;0mHello World!!!\x1b[0m');
-      expect(logger.c('Hello World!!!')).toBe('\x1b[37;40;0mHello World!!!\x1b[0m');
-      expect(logger.c('Hello World!!!', {color: 'green'})).toBe('\x1b[32;40;0mHello World!!!\x1b[0m');
+      expect(logger.getColorString('Hello World!!!')).toBe('\x1b[37;40mHello World!!!\x1b[0m');
+      expect(logger.getColorString('Hello World!!!', {color: 'green'})).toBe('\x1b[32;40mHello World!!!\x1b[0m');
+      expect(logger.getColorString('Hello World!!!', {color: 'green', attribute: 'italic'})).toBe('\x1b[32;40;3mHello World!!!\x1b[0m');
+      expect(logger.c('Hello World!!!')).toBe('\x1b[37;40mHello World!!!\x1b[0m');
+      expect(logger.c('Hello World!!!', {color: 'green'})).toBe('\x1b[32;40mHello World!!!\x1b[0m');
       expect(logger.c('Hello World!!!', {
         color: 'yellow',
         attribute: 'underline',

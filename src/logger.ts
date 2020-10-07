@@ -166,7 +166,16 @@ export default class Logger {
    * @param {Setting|undefined} setting setting
    * @return {string} color string
    */
-  public getColorString = (string: string, setting?: Setting): string => sprintf('\x1b[3%d;4%d;%dm%s\x1b[0m', COLOR_MAP[setting?.color ?? 'white'], COLOR_MAP[setting?.backColor ?? 'black'], ATTRIBUTE_MAP[setting?.attribute ?? 'none'], string);
+  public getColorString = (string: string, setting?: Setting): string => {
+    const color     = setting?.color ?? 'white';
+    const backColor = setting?.backColor ?? 'black';
+    const attribute = setting?.attribute ?? 'none';
+    if (attribute !== 'none') {
+      return sprintf('\x1b[3%d;4%d;%dm%s\x1b[0m', COLOR_MAP[color], COLOR_MAP[backColor], ATTRIBUTE_MAP[attribute], string);
+    }
+
+    return sprintf('\x1b[3%d;4%dm%s\x1b[0m', COLOR_MAP[color], COLOR_MAP[backColor], string);
+  };
 
   /**
    * @param {string} string string
