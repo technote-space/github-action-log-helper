@@ -762,10 +762,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@technote-space/github-action-test-helper@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@technote-space/github-action-test-helper/-/github-action-test-helper-0.6.1.tgz#a0fc8a4278145ffaf0561fc87315e81365aa9354"
-  integrity sha512-EzirRTpYWVKnGOA0fZe73oGt6Fwr+DT0tovx9QlHP4Mxx9xfEOrS0OENeOlz7vyP4NyP9j9OdBvkFtsPvRoIPQ==
+"@technote-space/github-action-test-helper@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@technote-space/github-action-test-helper/-/github-action-test-helper-0.6.2.tgz#66db2aee6f3a008847079ea685d4fd6748a175e4"
+  integrity sha512-x7V/6JwuYZInVXrRboHw7Hw0O++6NmtDjmO5qWj3sPRsTQTsMQOCafIkzUuz+cccWDJhD35FTgViEp7OGoVAGw==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
@@ -773,9 +773,9 @@
     js-yaml "^3.14.0"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
-  version "7.1.10"
-  resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.10.tgz#ca58fc195dd9734e77e57c6f2df565623636ab40"
-  integrity sha512-x8OM8XzITIMyiwl5Vmo2B1cR1S1Ipkyv4mdlbJjMa1lmuKvKY9FrBbEANIaMlnWn5Rf7uO+rC/VgYabNkE17Hw==
+  version "7.1.11"
+  resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.11.tgz#7fae4660a009a4031e293f25b213f142d823b3c4"
+  integrity sha512-E5nSOzrjnvhURYnbOR2dClTqcyhPbPvtEwLHf7JJADKedPbcZsoJVfP+I2vBNfBjz4bnZIuhL/tNmRi5nJ7Jlw==
   dependencies:
     "@babel/parser" "^7.1.0"
     "@babel/types" "^7.0.0"
