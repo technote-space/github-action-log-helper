@@ -764,10 +764,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@technote-space/github-action-test-helper@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@technote-space/github-action-test-helper/-/github-action-test-helper-0.6.3.tgz#b49ee630c233871658040013bc457df1a492faac"
-  integrity sha512-M48nUnFO4j3blTGWmZpRbgwJ0FaWCD6hMpLlX5YmhxVESt/wEBerxkzwfXohSWc+kLu0Fq6GJTMGbOCpkgneOA==
+"@technote-space/github-action-test-helper@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@technote-space/github-action-test-helper/-/github-action-test-helper-0.6.4.tgz#dd8a97666254ba02782320d6a12dfce47d6f332e"
+  integrity sha512-WLzgkL6OjWWiU/mYRmXSj3gFQihu9emdbTWTHo7ymCGBAf+nkrWH0kn+hYeu4AQH+HkKVGSPC2aSqh/NsAJ2VA==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
