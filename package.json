@@ -43,7 +43,7 @@
   "devDependencies": {
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
-    "@technote-space/github-action-test-helper": "^0.7.27",
+    "@technote-space/github-action-test-helper": "^0.7.28",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.3.1",

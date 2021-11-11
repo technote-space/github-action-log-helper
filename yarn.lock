@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@actions/core@^1.5.0", "@actions/core@^1.6.0":
+"@actions/core@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.6.0.tgz#0568e47039bfb6a9170393a73f3b7eb3b22462cb"
   integrity sha512-NB1UAZomZlCV/LmJqkLhNTqtKfFXJZAUPcfl/zqG7EfsQdeUJtaWO98SGbuQ3pydJ3fHl2CvI/51OKYlCYYcaw==
@@ -761,7 +761,7 @@
   dependencies:
     "@octokit/types" "^6.34.0"
 
-"@octokit/plugin-rest-endpoint-methods@^5.1.1", "@octokit/plugin-rest-endpoint-methods@^5.9.0":
+"@octokit/plugin-rest-endpoint-methods@^5.1.1", "@octokit/plugin-rest-endpoint-methods@^5.13.0":
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-5.13.0.tgz#8c46109021a3412233f6f50d28786f8e552427ba"
   integrity sha512-uJjMTkN1KaOIgNtUPMtIXDOjx6dGYysdIFhgA52x4xSadQCz3b/zJexvITDVpANnfKPW/+E0xkOvLntqMYpviA==
@@ -811,14 +811,14 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@technote-space/github-action-test-helper@^0.7.27":
-  version "0.7.27"
-  resolved "https://registry.yarnpkg.com/@technote-space/github-action-test-helper/-/github-action-test-helper-0.7.27.tgz#fa6e6759dfb63daa47b4980761d3ff0034c13617"
-  integrity sha512-zEKd/W8k5ULdXys0Wvfl8ec4m9NlniuXvfmanKWoj/2VSAonrmvMRZXHOkzPZdVcKErEIFDcO+Y9gQRipI/7rA==
+"@technote-space/github-action-test-helper@^0.7.28":
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/@technote-space/github-action-test-helper/-/github-action-test-helper-0.7.28.tgz#300104923fa7d8ad371d1b6cb6a9976de31ad5f3"
+  integrity sha512-sklWo0okgmUbaLr0gayerVI1uVhh3IjtbAQ89UUYk9uGycl4bmFawaGpagB542OpaH45QsxT6xBDcgPsrPS3Bg==
   dependencies:
-    "@actions/core" "^1.5.0"
+    "@actions/core" "^1.6.0"
     "@actions/github" "^5.0.0"
-    "@octokit/plugin-rest-endpoint-methods" "^5.9.0"
+    "@octokit/plugin-rest-endpoint-methods" "^5.13.0"
     js-yaml "^4.1.0"
 
 "@tootallnate/once@1":
