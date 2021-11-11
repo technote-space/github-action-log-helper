@@ -182,7 +182,7 @@ export default class Logger {
    * @param {Setting|undefined} setting setting
    * @return {string} color string
    */
-  public c = (string: string, setting?: Setting): string => this.getColorString(string, setting);
+  public c = (string: string, setting?: Setting): string => this.getColorString(string, setting); // eslint-disable-line id-length
 
   /**
    * @return {void}
