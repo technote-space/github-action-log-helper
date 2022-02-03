@@ -1,6 +1,6 @@
 {
   "name": "@technote-space/github-action-log-helper",
-  "version": "0.1.47",
+  "version": "0.1.48",
   "description": "Logging helpers for GitHub Actions.",
   "keywords": [
     "github",
