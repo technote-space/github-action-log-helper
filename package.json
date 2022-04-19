@@ -1,6 +1,6 @@
 {
   "name": "@technote-space/github-action-log-helper",
-  "version": "0.1.53",
+  "version": "0.2.0",
   "description": "Logging helpers for GitHub Actions.",
   "keywords": [
     "github",
@@ -35,8 +35,8 @@
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "prepublishOnly": "[ -n \"$CI\" ] || [ ! -f node_modules/.bin/pinst ] || pinst --disable",
     "postpublish": "[ -n \"$CI\" ] || [ ! -f node_modules/.bin/pinst ] || pinst --enable",
-    "typecheck": "tsc --noEmit",
     "test": "yarn lint && yarn typecheck && yarn cover",
+    "typecheck": "tsc --noEmit",
     "update": "npm_config_yes=true npx npm-check-updates -u --timeout 100000 && yarn install && yarn upgrade && yarn audit"
   },
   "dependencies": {
