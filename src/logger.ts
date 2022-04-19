@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import {sprintf} from 'sprintf-js';
-import {info, debug, error, warning, startGroup, endGroup} from '@actions/core';
+import { sprintf } from 'sprintf-js';
+import { info, debug, error, warning, startGroup, endGroup } from '@actions/core';
 
 const COLOR_MAP     = {
   'black': 0,
