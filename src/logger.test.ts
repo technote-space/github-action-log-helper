@@ -1,9 +1,10 @@
 /* eslint-disable no-magic-numbers */
+import { beforeEach, describe, expect, it } from 'vitest';
 import {
   spyOnStdout,
   stdoutCalledWith,
 } from '@technote-space/github-action-test-helper';
-import {Logger} from '../src';
+import { Logger } from '../src';
 
 describe('Logger', () => {
   beforeEach(() => {
@@ -125,10 +126,10 @@ describe('Logger', () => {
         attribute: 'bold',
       })).toBe('\x1b[34;41;1mHello World!!!\x1b[0m');
       expect(logger.getColorString('Hello World!!!')).toBe('\x1b[37;40mHello World!!!\x1b[0m');
-      expect(logger.getColorString('Hello World!!!', {color: 'green'})).toBe('\x1b[32;40mHello World!!!\x1b[0m');
-      expect(logger.getColorString('Hello World!!!', {color: 'green', attribute: 'italic'})).toBe('\x1b[32;40;3mHello World!!!\x1b[0m');
+      expect(logger.getColorString('Hello World!!!', { color: 'green' })).toBe('\x1b[32;40mHello World!!!\x1b[0m');
+      expect(logger.getColorString('Hello World!!!', { color: 'green', attribute: 'italic' })).toBe('\x1b[32;40;3mHello World!!!\x1b[0m');
       expect(logger.c('Hello World!!!')).toBe('\x1b[37;40mHello World!!!\x1b[0m');
-      expect(logger.c('Hello World!!!', {color: 'green'})).toBe('\x1b[32;40mHello World!!!\x1b[0m');
+      expect(logger.c('Hello World!!!', { color: 'green' })).toBe('\x1b[32;40mHello World!!!\x1b[0m');
       expect(logger.c('Hello World!!!', {
         color: 'yellow',
         attribute: 'underline',
