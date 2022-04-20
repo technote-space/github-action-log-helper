@@ -9,4 +9,5 @@ export default {
   plugins: [
     pluginTypescript(),
   ],
+  external: ['sprintf-js', '@actions/core'],
 };
