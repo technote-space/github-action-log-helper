@@ -1,9 +1,9 @@
 /* eslint-disable no-magic-numbers */
-import { beforeEach, describe, expect, it } from 'vitest';
 import {
   spyOnStdout,
   stdoutCalledWith,
 } from '@technote-space/github-action-test-helper';
+import { beforeEach, describe, expect, it } from 'vitest';
 import { Logger } from '../src';
 
 describe('Logger', () => {
