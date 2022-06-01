@@ -4,7 +4,7 @@ import {
   stdoutCalledWith,
 } from '@technote-space/github-action-test-helper';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { Logger } from '../src';
+import { Logger } from '../src/index.js';
 
 describe('Logger', () => {
   beforeEach(() => {
