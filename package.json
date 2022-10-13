@@ -52,7 +52,7 @@
     "@rollup/plugin-typescript": "^9.0.1",
     "@sindresorhus/tsconfig": "^3.0.1",
     "@technote-space/github-action-test-helper": "^0.9.11",
-    "@types/node": "^18.8.4",
+    "@types/node": "^18.8.5",
     "@types/sprintf-js": "^1.1.2",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
