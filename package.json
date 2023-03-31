@@ -1,6 +1,6 @@
 {
   "name": "@technote-space/github-action-log-helper",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "Logging helpers for GitHub Actions.",
   "keywords": [
     "github",
@@ -47,24 +47,24 @@
     "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.0",
+    "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
     "@rollup/plugin-typescript": "^11.0.0",
     "@sindresorhus/tsconfig": "^3.0.1",
-    "@technote-space/github-action-test-helper": "^0.11.3",
-    "@types/node": "^18.15.5",
+    "@technote-space/github-action-test-helper": "^0.11.4",
+    "@types/node": "^18.15.11",
     "@types/sprintf-js": "^1.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
-    "@vitest/coverage-c8": "^0.29.7",
-    "eslint": "^8.36.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "@vitest/coverage-c8": "^0.29.8",
+    "eslint": "^8.37.0",
     "eslint-plugin-import": "^2.27.5",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "pinst": "^3.0.0",
-    "rollup": "^3.20.0",
+    "rollup": "^3.20.2",
     "typescript": "^5.0.2",
-    "vitest": "^0.29.7"
+    "vitest": "^0.29.8"
   },
   "publishConfig": {
     "access": "public"
